@@ -1,5 +1,5 @@
 ﻿#  Variables - Authentication                                                  #
-aws_region = "us-east-1"
+aws_region = "${secrets.REGION}"
 #  Variables - Naming                                                          #
 aws_root_name        = "demo"
 aws_region_name      = "use1"
